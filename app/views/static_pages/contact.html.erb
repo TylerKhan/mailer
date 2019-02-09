@@ -1,0 +1,38 @@
+<h1 class="text-center">Contact Us</h1>
+
+<%= form_tag("/contact") do %>
+  <div class= "row">
+    <div class= "col-md-6">
+      <div class="form-group">
+        <label for="name">Enter Name:</label>
+        <input type="text" name="name" id="name" class="form-control">
+        
+      </div>
+      <div class= "form-group">
+        <label for='name'>Enter Email:</label>
+        <input type="text" name="name" id="name" class="form-control"></ins>
+        
+
+      </div>
+      <div class= "form-group">
+        <label for='name'>Enter Number:</label>
+        <input type="text" name="number" id="number" class="form-control"></ins>
+        
+
+      </div>
+    </div>
+    <div class= "col-md-6">
+      <div class="form-group">
+      <label for="content">Enter Message:</label>
+      <textarea name="content" id="content" class="form-control" style="height: 240px"></textarea>
+
+      </div>
+
+      
+    </div>
+  </div>
+  <dir class="text-center">
+    <input type="submit" value="Send Message" class="btn btn-primary"> 
+  </dir>
+
+<% end %>
